@@ -1,0 +1,6 @@
+Atajos de teclado
+
+ctrl k ctrl c =  comentar
+ctrl k ctrl f = acomoda las etiquetyas en casacada
+alt + flechas mueve lineas o conj lineas
+alt z colapsa lineas para mejor visulaizacion

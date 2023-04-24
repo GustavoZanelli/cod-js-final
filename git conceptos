@@ -5,7 +5,7 @@ git config --global user.name"gdzanelli@hotmail.com"
 git init
 git config --global -l   lista los archivos
 git status
-git add = paso a staging area (primer paso)
+git add = paso a staging area (primer paso )
 git commit -m "descripcion"
 git log  =  mostrar todos los cambios confirmados
 git commit -am "" hace el add y el commit
