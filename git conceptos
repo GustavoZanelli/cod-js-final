@@ -13,7 +13,7 @@ git --oneline me da toda la info en una sola linea
 git reset --hard vuelve a un putno de la historia  = trae el archivo viejo
 
 
-pwd = vemos donde estamos posicionados
+pwd = vemos donde estamos posicionados  
 ls = listamos archivos
 ls -a = listamos archivos,incluidos los ocultos
 mkdir = creamos archivos
