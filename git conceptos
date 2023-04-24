@@ -11,4 +11,4 @@ git log  =  mostrar todos los cambios confirmados
 git commit -am "" hace el add y el commit
 git --oneline me da toda la info en una sola linea
 git reset --hard vuelve a un putno de la historia  = trae el archivo viejo
-git 
+git
