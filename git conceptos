@@ -50,3 +50,4 @@ git branch -b = creamos rama y nos posicionamos en esta
 
 git merge (nombre de la rama)=fusionamos las ramas;debemos posicionarnos en la rama de destino
 =======
+probando
