@@ -13,20 +13,12 @@ git --oneline me da toda la info en una sola linea
 git reset --hard vuelve a un putno de la historia  = trae el archivo viejo
 
 
-<<<<<<< HEAD
 pwd = vemos donde estamos posicionados  
-=======
-pwd = vemos donde estamos posicionados   
->>>>>>> nueva_rama
 ls = listamos archivos
 ls -a = listamos archivos,incluidos los ocultos
 mkdir = creamos archivos
 cd = navegamos en las carpetas
-<<<<<<< HEAD
 cd .. = vogit commitlvemos una carpeta atras
-=======
-cd .. = volvemos una carpeta atras
->>>>>>> nueva_rama
 git init = inicializamos repositorio
 clear = limpiamos pantalla
 git log = vemos commits generados
@@ -58,7 +50,3 @@ git branch -b = creamos rama y nos posicionamos en esta
 
 git merge (nombre de la rama)=fusionamos las ramas;debemos posicionarnos en la rama de destino
 
-probando 
-
-123
-123456
