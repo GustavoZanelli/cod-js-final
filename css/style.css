@@ -64,22 +64,26 @@ body {
 	font-weight: 400;
 	color: #fff;
 	text-decoration: none;
-	/* padding: .5rem 1rem; */
+	padding: .5rem 1rem;
 	line-height: 2.3;
 }
 
+/* Texto del Navbar superior */
 .navbar-nav a {
 	font-size: 15px;
-	/* text-transform: uppercase; */
 	font-weight: 500;
+	float: left;
 }
 
+/* texto de conf bs as del brand */
 .navbar-light .navbar-brand {
-	color: #fffefe;
+	color: #ffffff;
 	font-size: 25px;
 	/* text-transform: uppercase; */
 	font-weight: bold;
 	letter-spacing: 2px;
+	margin-left: 0;
+	float: left;
 }
 
 .navbar-light .navbar-brand:focus,
@@ -112,11 +116,12 @@ body {
 	text-decoration: none;
 }
 
+/* Boton sandwich */
 .navbar-toggler {
 	padding: 1px 5px;
 	font-size: 18px;
 	line-height: 0.3;
-	background: #fff;
+	background: #ffffff;
 }
 
 .team .card {
@@ -129,18 +134,21 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
 	.carousel-caption {
-		bottom: 370px;
+		bottom: 37px;
 	}
 
+	/* Texro parrafo carrousel */
 	.carousel-caption p {
 		width: 100%;
+		text-size-adjust: auto ;
 	}
 
 	.card {
 		margin-bottom: 30px;
 	}
-}
 
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
@@ -163,7 +171,8 @@ body {
 	.carousel-caption p {
 		width: 100%;
 		line-height: 1.6;
-		font-size: 12px;
+		/* font-size: 12px; */
+		text-size-adjust: auto ;
 	}
 
 	.about-text {
@@ -173,4 +182,43 @@ body {
 	.card {
 		margin-bottom: 30px;
 	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-right: 55px;
+	  }
+	  }
+	  
+	  .navbar-left {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .navbar-logo {
+		height: 30px; /* ajustar la altura del logo según sea necesario */
+		margin-right: 10px; /* agregar espacio entre el logo y el texto */
+	  }
+	  
+	  .navbar-text {
+		font-size: 1.2rem; /* ajustar el tamaño de la fuente según sea necesario */
+	  }
+	  
+	  .navbar-right {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .navbar-nav {
+		display: flex;
+		justify-content: flex-end;
+	  }
+	  
+	  .nav-item {
+		margin-left: 10px; /* agregar espacio entre los elementos de navegación */
+	  }
+
+
+
+
 } 
