@@ -133,6 +133,13 @@ body {
 
 }
 
+/* Texto parrafo carrousel */
+.carousel-caption p {
+	width: 100%;
+	color: hsl(134, 91%, 44%);
+	
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
 	/* ***conf bs as**** */
