@@ -14,14 +14,13 @@ body {
 
 .carousel-item {
 	height: 100vh;
-	min-height: 200px;
+	min-height: 300px;
 }
 
-/* comprar tickets */
 .carousel-caption {
 	bottom: 220px;
 	z-index: 2;
-	width: 100;
+	width: 60%;
 	margin: auto;
 	font-size: 18px;
 	line-height: 1.9;
@@ -29,6 +28,7 @@ body {
 
 .carousel-caption h5 {
 	font-size: 45px;
+	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 25px;
 }
@@ -135,39 +135,28 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
-	/* ***conf bs as**** */
-	/* .carousel-caption {    
+	
+	.carousel-caption {
 		bottom: 37px;
-	} */
+	}
 
-	/* Texto parrafo carrousel */
+	/* Texro parrafo carrousel */
 	.carousel-caption p {
 		width: 100%;
-		color: hsl(61, 100%, 50%) !important;
-		font-size: small;
+		text-size-adjust: auto ;
 	}
 
 	.card {
 		margin-bottom: 30px;
 	}
-}
-	@media only screen and (max-width: 767px) {
-	
-	/* Texto parrafo carrousel */
-	.carousel-caption p {
-		width: 100%;
-		color: #ef0808;
-		font-size: large;
-		
-	}
+
+@media only screen and (max-width: 767px) {
 	.navbar-nav {
 		text-align: center;
 	}
 
 	.carousel-caption {
 		bottom: 125px;
-		
-		
 	}
 
 	.carousel-caption h5 {
@@ -177,10 +166,14 @@ body {
 	.carousel-caption a {
 		padding: 10px 15px;
 		font-size: 15px;
-		color: #106eea;
 	}
 
-	
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		/* font-size: 12px; */
+		text-size-adjust: auto ;
+	}
 
 	.about-text {
 		padding-top: 50px;
@@ -195,7 +188,8 @@ body {
 		align-items: center;
 		margin-right: 55px;
 	  }
-	  	  
+	  }
+	  
 	  .navbar-left {
 		display: flex;
 		align-items: center;
@@ -215,7 +209,11 @@ body {
 		align-items: center;
 	  }
 	  
-	 
+	  .navbar-nav {
+		display: flex;
+		justify-content: flex-end;
+	  }
+	  
 	  .nav-item {
 		margin-left: 10px; /* agregar espacio entre los elementos de navegación */
 	  }
