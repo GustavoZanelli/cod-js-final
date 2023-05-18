@@ -16,51 +16,6 @@ body {
 	display: inline-block;
   }
 
-.carousel-item {
-	height: 100vh;
-	min-height: 200px;
-}
-
-/* comprar tickets */
-.carousel-caption {
-	bottom: 220px;
-	z-index: 2;
-	width: 100;
-	margin: auto;
-	font-size: 18px;
-	line-height: 1.9;
-}
-
-.carousel-caption h5 {
-	font-size: 45px;
-	letter-spacing: 2px;
-	margin-top: 25px;
-}
-
-.carousel-caption {}
-
-.carousel-inner:before {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.7);
-	z-index: 1;
-}
-
-.carousel-inner1 {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: rgba(0, 0, 0, 0.7);
-	z-index: 1;
-}
-
 .navbar .getstarted {
 	background: #106eea;
 	margin-left: 30px;
@@ -138,57 +93,18 @@ body {
 
 }
 
-/* Texto parrafo carrousel */
-.carousel-caption p {
-	width: 100%;
-	color: hsl(134, 91%, 44%);
-	
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	
-	/* ***conf bs as**** */
-	/* .carousel-caption {    
-		bottom: 37px;
-	} */
-
-	/* Texto parrafo carrousel */
-	.carousel-caption p {
-		width: 100%;
-		color: hsl(61, 100%, 50%) !important;
-		font-size: small;
-	}
-
 	.card {
 		margin-bottom: 30px;
 	}
 }
 	@media only screen and (max-width: 767px) {
 	
-	/* Texto parrafo carrousel */
-	.carousel-caption p {
-		width: 100%;
-		color: #ef0808;
-		font-size: auto;
-	}
 	.navbar-nav {
 		text-align: center;
 	}
-	.carousel-caption {
-		bottom: 125px;
-		
-	}
-
-	.carousel-caption h5 {
-		font-size: 25px;
-		color: #ef0808;
-	}
-
-	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
-		color: #106eea;
-	}
+	
 	.about-text {
 		padding-top: 50px;
 	}
