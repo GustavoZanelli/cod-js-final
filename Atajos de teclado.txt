@@ -1,0 +1,3 @@
+Atajos de teclado
+
+ctrl k ctrl c =  comentar
