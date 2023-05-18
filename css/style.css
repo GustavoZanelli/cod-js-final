@@ -12,6 +12,10 @@ body {
 	padding: 10px;
 }
 
+.div-inline {
+	display: inline-block;
+  }
+
 .carousel-item {
 	height: 100vh;
 	min-height: 200px;
@@ -125,11 +129,12 @@ body {
 }
 
 .team .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+	box-shadow: 15px 15px 40px rgb(164, 20, 20);
 }
 
 .team .card-body i {
 	font-size: 20px;
+	background-color: #106eea;
 
 }
 
@@ -164,21 +169,19 @@ body {
 	.carousel-caption p {
 		width: 100%;
 		color: #ef0808;
-		font-size: large;
-		
+		font-size: auto;
 	}
 	.navbar-nav {
 		text-align: center;
 	}
-
 	.carousel-caption {
 		bottom: 125px;
-		
 		
 	}
 
 	.carousel-caption h5 {
-		font-size: 17px;
+		font-size: 25px;
+		color: #ef0808;
 	}
 
 	.carousel-caption a {
@@ -186,13 +189,9 @@ body {
 		font-size: 15px;
 		color: #106eea;
 	}
-
-	
-
 	.about-text {
 		padding-top: 50px;
 	}
-
 	.card {
 		margin-bottom: 30px;
 	}
@@ -221,13 +220,7 @@ body {
 		display: flex;
 		align-items: center;
 	  }
-	  
-	 
 	  .nav-item {
 		margin-left: 10px; /* agregar espacio entre los elementos de navegación */
 	  }
-
-
-
-
 } 
