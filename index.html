@@ -140,13 +140,13 @@
                   <div class="col-md-6 div-inline">
                     <div class="mb-3">
                       <label for="Cantidad">Cantidad</label>
-                      <input class="form-control" placeholder="Cantidad" required="Cantidad" type="text">
+                      <input id="cantidad" class="form-control" placeholder="Cantidad" required="cantidad" type="number">
                     </div>
                   </div>
 
                   <div class="col-md-6 div-inline">
                     <label for="Categoria">Categoria</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select id="cate" class="form-select" aria-label="Default select example">
                       <option selected>Seleccionar categoria</option>
                       <option value="0.8">Estudiante</option>
                       <option value="0.5">Junior</option>
@@ -156,19 +156,20 @@
 
 
                   <div class="mb-3">
-                    <input class="form-control form-ctrl " placeholder="Total a pagar: $" required="" type="text">
+                    <div  id="total" class="form-control form-ctrl">Total a pagar : $ </div>
                   </div>
 
 
                   <div class="col-md-6 div-inline">
-                    <div class="mb-3">
-                      <button class="btn btn-success btn-lg btn-block col-md-12" type="button">Borrar</button>
+                    <div class="">
+                      <button onclick="borrar(); " class="btn btn-success btn-lg btn-block col-md-12" type="button" >Borrar</button>
                     </div>
                   </div>
 
                   <div class="col-md-6 div-inline">
-                    <div class="mb-3">
-                      <button class="btn btn-success btn-lg btn-block col-md-12" type="button">Resumen</button>
+                    <div class="">
+                      <button onclick="realizarCuenta()" class="btn btn-success btn-lg btn-block col-md-12" type="button">Resumen</button>
+                      
                     </div>
                   </div>
 
@@ -178,6 +179,13 @@
             </form>
           </div>
         </div>
+        <!-- <button onclick="obtenerValor()">Obtener Valor</button> -->
+        <p id="resultado"></p>
+        <p id="resultado1"></p>
+        <p id="resultado2"></p>
+
+
+
     </div>
   </section>
 
@@ -226,6 +234,8 @@
 
   <!-- All Js -->
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/main copy.js"></script>
+  <script src="js/funciones.js"></script>
 </body>
 </html>
