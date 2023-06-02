@@ -47,8 +47,6 @@ function realizarCuenta() {
     var cat = document.getElementById("cate");
     cat.selectedIndex = 0;
     console.log(cat.value)
-
-
     }
 
     var total = obtenerValor() * realizarCuenta();
