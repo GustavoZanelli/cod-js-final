@@ -55,8 +55,7 @@ function realizarCuenta() {
 
     var apeinput = document.getElementById("ape");
     apeinput.value = ""
-   
-    }
+       }
 
     var total = obtenerValor() * realizarCuenta();
     parrafo.innerText = "Total a pagar : $ " + total;  
