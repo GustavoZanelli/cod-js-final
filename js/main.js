@@ -44,8 +44,10 @@ function realizarCuenta() {
     var cantidadInput = document.getElementById("cantidad");
     cantidadInput.value = "";
 
-    var totalinput = document.getElementById("total")
-    totalinput.value = "5" ;
+    var cat = document.getElementById("cate");
+    cat.selectedIndex = 0;
+    console.log(cat.value)
+
 
     }
 
