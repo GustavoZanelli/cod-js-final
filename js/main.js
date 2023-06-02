@@ -14,7 +14,6 @@ document.addEventListener('keydown', realizarCuenta)
 document.addEventListener('keydown', multiplicar)   
 
 
-
 function realizarCuenta() {
   var valor = document.getElementById("cantidad").value;
   var resultado = valor * 200 ;
