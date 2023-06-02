@@ -59,4 +59,4 @@ function realizarCuenta() {
     var total = obtenerValor() * realizarCuenta();
     parrafo.innerText = "Total a pagar : $ " + total;  
 
-  
+  //final
