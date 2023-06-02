@@ -46,9 +46,16 @@ function realizarCuenta() {
 
     var cat = document.getElementById("cate");
     cat.selectedIndex = 0;
-    console.log(cat.value)
+    
+    var cor = document.getElementById("correo");
+    cor.value = ""
 
+    var nominput = document.getElementById("nom");
+    nominput.value = ""
 
+    var apeinput = document.getElementById("ape");
+    apeinput.value = ""
+   
     }
 
     var total = obtenerValor() * realizarCuenta();
