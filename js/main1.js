@@ -7,7 +7,7 @@ var cat = document.getElementById("cate").value;
 
 document.addEventListener('click', obtenerValor) 
 document.addEventListener('click', realizarCuenta)                          
-document.addEventListener('click', multiplicar)  
+// document.addEventListener('click', multiplicar)  
 
 document.addEventListener('keydown', obtenerValor) 
 document.addEventListener('keydown', realizarCuenta)
@@ -54,9 +54,10 @@ function realizarCuenta() {
 
     var apeinput = document.getElementById("ape");
     apeinput.value = ""
-       }
 
-    var total = obtenerValor() * realizarCuenta();
+    total = 0
     parrafo.innerText = "Total a pagar : $ " + total;  
+
+       }
 
   //final
